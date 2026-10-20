@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: "Inter",Ariel,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    background: radial-gradient(
+        circle at 90% 35%,
+        rgba(0,220,255,0.18),
+        transparent 25%
+    ),
+    radial-gradient(
+        circle at 70% 100%,
+        rgba(130,30,255,0.12),
+        transparent 25%
+    ),
+    #050b13;
+    overflow-x: hidden;
+}
+.calc{
+    height:500px;
+    width:min(430px,100%);
+    margin:auto;
+    border: 1px solid rgb(255, 255, 255,0.24);
+    padding:18px;
+    border-radius: 42px;
+    background: linear-gradient(
+        135deg,
+        rgba(231, 88, 197, 0.55),
+        transparent 30%,
+        transparent 70%,
+        rgba(96, 235, 235, 0.55)
+        );
+    backdrop-filter: blur(25px);
+}
+
+#display{
+height: 25%;
+ width:100%;
+ color:rgb(231, 228, 228);
+ border:1px soild rgba(255,255,255,0.28) ;
+ border-radius: 10px;
+ padding:5px ;
+ align-items: center;
+ margin: auto;
+ font-size: 50px;
+ text-align: right;
+ background: linear-gradient(
+    145deg,
+    rgba(5,14,24,0.94),
+    rgba(9,20,31,0.73)
+ );
+ box-shadow:
+ inset 0 0 35px rgba(0,0,0,0.5),
+ inset 0 1px rgba(255,255,255,0.34)
+ 0 0 20px rgba(0,220,255,0.08) ;
+ cursor:pointer;
+}
+
+button{
+    color:#f4fbff;
+    font-size: 25px;
+    border:none;
+    border-radius: 20px;
+    text-align: center;
+    height: 60px;
+    width : 84px;
+    margin:5px 5px;
+    padding: 2px;
+    cursor: pointer;
+    background: linear-gradient(
+        145deg,
+        rgba(255,255,255,0.16),
+        rgba(255,255,255,0.055)
+    );
+}
+button:active{
+    transform: scale(0.90);
+}
+#btnac{
+    color:rgb(245, 154, 245);
+}
+#btne{
+    color:black;
+    background: aqua;
+}
+
+#btn0{
+    width:183px;
+}
